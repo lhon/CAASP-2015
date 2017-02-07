@@ -1,0 +1,7 @@
+
+# http://caaspp.cde.ca.gov/sb2015/ResearchFileList
+wget http://www3.cde.ca.gov/caasppresearchfiles/2015/sb-p3/ca2015_1_csv_v3.zip
+
+# http://www.cde.ca.gov/ds/si/ds/pubschls.asp
+wget ftp://ftp.cde.ca.gov/demo/schlname/pubschls.txt
+zip pubschls.zip pubschls.txt

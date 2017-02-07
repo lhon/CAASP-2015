@@ -1,0 +1,26 @@
+name: California School Scores (CAASP 2015)
+
+filename: notebook.ipynb
+
+description: Browse data by neighborhood for the California Assessment of Student
+  Performance and Progress ([CAASPP](http://caaspp.cde.ca.gov/sb2015))
+
+packages:
+- python=2
+- dappled-core
+- pandas
+- plotly
+- scipy
+- folium
+- pip:
+  - cufflinks
+  - colorlover
+
+channels:
+- http://conda.dappled.io
+- conda-forge
+
+#downloads:
+
+publish_id: 3pjyew
+
